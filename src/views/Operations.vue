@@ -32,8 +32,8 @@
 
 <script>
 import PayrollCalculator from '@/components/PayrollCalculator.vue';
-import TimeOffManager from '@/components/TimeOffManager.vue';
-import AttendanceTracker from '@/components/AttendanceTracker.vue';
+import TimeOffManager from '@/views/TimeOffManager.vue';
+import AttendanceTracker from '@/views/AttendanceTracker.vue';
 import ReportsGenerator from '@/components/ReportsGenerator.vue';
 
 export default {

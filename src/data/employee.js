@@ -1,4 +1,4 @@
-export const employee = [
+export const employeeInformation = [
     {
         employeeId: 1,
         name: "Sibongile Nkosi",
@@ -68,7 +68,7 @@ export const employee = [
         position: "Content Strategist",
         department: "Marketing",
         salary: 56000,
-       employmentHistory: "Joined in 2021",
+        employmentHistory: "Joined in 2021",
         contact: "farai.gumbo@moderntech.com"
     },
     {

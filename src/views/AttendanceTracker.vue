@@ -70,7 +70,7 @@
 </template>
 
 <script>
-import { employeeInformation } from '@/data/dummyData.js';
+import { employeeInformation } from '@/data/employee.js';
 
 export default {
   name: 'AttendanceTracker',

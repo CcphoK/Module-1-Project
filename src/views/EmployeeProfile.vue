@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import { employee as employeeData } from "../data/employee.js";
+import { employeeInformation as employeeData } from "../data/employee.js";
 
 export default {
   name: "EmployeeProfile",

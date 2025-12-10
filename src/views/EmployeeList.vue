@@ -62,14 +62,14 @@
 </template>
 
 <script>
-import { employee } from "../data/employee.js";
+import { employeeInformation } from "../data/employee.js";
 import { RouterLink } from 'vue-router';
 
 export default {
   components: { RouterLink },
   data() {
     return {
-      employeeList: [...employee],
+      employeeList: [...employeeInformation],
       searchTerm: "",
       currentPage: 1,
       pageSize: 5
