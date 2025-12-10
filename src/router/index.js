@@ -21,3 +21,17 @@ const router = createRouter({
 })
 
 export default router
+
+
+//project
+
+import Operations from '@/views/Operations.vue'
+
+const routes = [
+  // ... other routes
+  {
+    path: '/operations',
+    name: 'Operations',
+    component: Operations
+  }
+]
